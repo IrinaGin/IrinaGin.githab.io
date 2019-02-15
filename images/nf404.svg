@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="481px" height="218px" viewBox="0 0 481 218" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="116.279836" y="72.0801102" width="261.109937" height="31"></rect>
+        <filter x="-18.0%" y="-80.6%" width="136.0%" height="403.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="22" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="404" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-393.000000, -252.000000)">
+        <g id="Group" transform="translate(393.000000, 256.000000)">
+            <path d="M64.73,161 L72.29,132.44 L4.88,132.44 L0.47,102.62 L100.43,12.95 L143.48,12.95 L119.75,101.99 L138.44,101.99 L130.04,132.44 L111.56,132.44 L103.79,161 L64.73,161 Z M45.83,102.2 L80.48,102.2 L91.61,60.41 L45.83,102.2 Z M236.723333,163.94 C200.183333,163.94 177.923333,138.32 177.923333,104.3 C177.923333,57.68 210.053333,11.06 259.193333,11.06 C295.943333,11.06 318.203333,36.89 318.203333,70.7 C318.203333,117.53 286.073333,163.94 236.723333,163.94 Z M240.293333,128.03 C262.763333,128.03 276.833333,96.95 276.833333,73.01 C276.833333,55.58 268.013333,47.18 255.623333,47.18 C233.153333,47.18 219.293333,78.26 219.293333,102.2 C219.293333,119.42 227.903333,128.03 240.293333,128.03 Z M401.446666,161 L409.006666,132.44 L341.596666,132.44 L337.186666,102.62 L437.146666,12.95 L480.196666,12.95 L456.466666,101.99 L475.156666,101.99 L466.756666,132.44 L448.276666,132.44 L440.506666,161 L401.446666,161 Z M382.546666,102.2 L417.196666,102.2 L428.326666,60.41 L382.546666,102.2 Z" id="404-copy" fill="#068DE3"></path>
+            <g id="Rectangle-10" transform="translate(246.834804, 87.580110) rotate(-35.000000) translate(-246.834804, -87.580110) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#068DE3" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

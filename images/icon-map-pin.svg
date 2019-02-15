@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Контакты" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-902.000000, -475.000000)">
+        <g id="Oval" transform="translate(902.000000, 475.000000)">
+            <circle fill="#068DE3" opacity="0.200000003" cx="39.5" cy="39.5" r="39.5"></circle>
+            <circle id="Oval-Copy-2" fill="#068DE3" opacity="0.300000012" cx="39.5" cy="39.5" r="26.5"></circle>
+            <circle id="Oval-Copy-3" fill="#08192A" opacity="0.900000036" cx="39.5" cy="39.5" r="8.5"></circle>
+        </g>
+    </g>
+</svg>
