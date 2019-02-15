@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escalada</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="js/owl.carousel.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="style.css?1">
+    <script src="js/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scrollTo.js"></script>
+</head>
+<body>
+<div class="header">
+   <div class="logo"><div></div><a href="index.html">Фитнес-клуб</a></div>
+    <div class="top-menu">
+        <a href="#about1" class="anchor">О клубе</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="#gum" class="anchor item-hidden">Тренажерный зал и скалодром</a>
+        <a href="#swim" class="anchor item-hidden">Бассейн</a>
+        <a href="#group" class="anchor item-hidden">Групповые занятия и студии</a>
+        <a href="#kids" class="anchor item-hidden">Детский клуб</a>
+        <a href="#spa" class="anchor item-hidden">SPA и кафе</a>
+        <a href="cards.html" class="btn item-hidden">клубные карты</a>
+    </div>
+    <div class="phone"><a href="tel:+7 (495) 783 32 16">+7 (495) 783 32 16</a></div>
+</div>
+<div class="top-slider">
+    <div class="top-slider__items owl-carousel owl-loaded" data-carousel>
+        <div class="top-slider__item">
+            <div class="top-slider__title">
+                <span class="tittle_item-1">Вы готовы</span><br>
+                <span class="tittle_item-2">превзойти</span><br>
+                <span class="tittle_item-3">себя?</span>
+            </div>
+            <div class="top-slider__title title--blue"><span>Жмите!</span></div>
+            <div class="top-slider__info">
+                <div class="top-slider__text">
+                    <span>Велотренажеры премиум класса IC6 Indoor Cycle от компании LifeFitness</span>
+                    <span>Большой экран, визуализирующий маршрут тренировки</span>
+                    <span>Занятия в мини-группах с опытным инструктором</span>
+                </div>
+                <div class="top-slider__link-info">
+                    <div class="top-slider__studio">Студия сайкла</div>
+                    <div class="top-slider__link"><a href="cards.html">Начать прямо сейчас</a></div>
+                </div>
+            </div>
+            <div class="top-slider__background">
+                <img src="images/top-s-1.jpg" class="ts-bg ts-bg-item">
+                <img src="images/ts-mobile3.png" class="ts-bg-mobile">
+                <img src="images/ts1/ts1-hand1.png" class="ts-item ts-item-1">
+                <img src="images/ts1/ts1-hand2.png" class="ts-item ts-item-2">
+                <img src="images/ts1/ts1-line.png" class="ts-item ts-item-3">
+                <img src="images/ts1/ts1-line.png" class="ts-item ts-item-4">
+                <img src="images/ts1/ts1-line.png" class="ts-item ts-item-5">
+            </div>
+        </div>
+        <div class="top-slider__item">
+            <div class="top-slider__title">
+                <span class="tittle_item-1">Вы готовы</span><br>
+                <span class="tittle_item-2">превзойти</span><br>
+                <span class="tittle_item-3">себя?</span>
+            </div>
+            <div class="top-slider__title title--blue"><span>Плывите!</span></div>
+            <div class="top-slider__info">
+                <div class="top-slider__text">
+                    <span>Обучение плаванию для взрослых  и детей в группах и индивидуально</span>
+                    <span>Бассейн 22 м х 7,5 м с современной системой очистки воды</span>
+                    <span> Водопад и зона с гидромассажем </span>
+                </div>
+                <div class="top-slider__link-info">
+                    <div class="top-slider__studio">Бассейн</div>
+                    <div class="top-slider__link"><a href="cards.html">Начать прямо сейчас</a></div>
+                </div>
+            </div>
+            <div class="top-slider__background">
+                <img src="images/ts-swim-bg.jpg" class="ts-bg ts-bg-swim">
+                <img src="images/ts-mobile2.png" class="ts-bg-mobile">
+                <img src="images/ts-swim-hand.png" class="ts-item ts-swim-1">
+                <img src="images/ts1/ts1-line.png" class="ts-item ts-swim-2">
+                <img src="images/ts-line-2.png" class="ts-item ts-swim-3">
+                <img src="images/ts-line-3.png" class="ts-item ts-swim-4">
+            </div>
+        </div>
+        <div class="top-slider__item">
+            <div class="top-slider__title">
+                <span class="tittle_item-1">Вы готовы</span><br>
+                <span class="tittle_item-2">превзойти</span><br>
+                <span class="tittle_item-3">себя?</span>
+            </div>
+            <div class="top-slider__title title--blue"><span>Бегите!</span></div>
+            <div class="top-slider__info">
+                <div class="top-slider__text">
+                    <span>Новейшие  линейками тренажеров Life Fitness</span>
+                    <span>Квалифицированные консультации от наших тренеров</span>
+                    <span>Групповые и индивидуальные занятия </span>
+                </div>
+                <div class="top-slider__link-info">
+                    <div class="top-slider__studio">Тренажерный зал</div>
+                    <div class="top-slider__link"><a href="cards.html">Начать прямо сейчас</a></div>
+                </div>
+            </div>
+            <div class="top-slider__background">
+                <img src="images/ts-gum-bg.jpg" class="ts-bg ts-bg-gum">
+                <img src="images/ts-mobile1.png" class="ts-bg-mobile">
+                <img src="images/ts-gum-hand1.png" class="ts-item ts-gum-2">
+                <img src="images/ts-gum-hand2.png" class="ts-item ts-gum-3">
+                <img src="images/ts-gum-line1.png" class="ts-item ts-gum-4">
+                <img src="images/ts-gum-line2.png" class="ts-item ts-gum-5">
+                <img src="images/ts-gum-line3.png" class="ts-item ts-gum-6">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-about has-padding content-center light-bg" id="about1">
+    <div class="wrap">
+        <div class="main-about__info" data-parallax="60">
+            <div class="main-about__top-descr">Escalada — высокие стандарты фитнеса</div>
+            <h2>О клубе</h2>
+            <div class="main-about__descr">Современный тренажерный зал, чистейший бассейн, студии: сайкла, пилатес, бокса, танцев, йоги и кроссфит, групповые и индивидуальные занятия, детский клуб и SPA- зона. Качество. Профессионализм. Индивидуальный подход. Вы и ваши результаты действительно важны для нас!</div>
+        </div>
+        <div class="main-about__items">
+            <div class="main-about__item">
+                <a href="#gum">
+                    <img src="images/main-about-1.svg" class="main-about__item-img">
+                    <span class="main-about__item-title">Тренажерный зал и скалодром</span>
+                </a>
+            </div>
+            <div class="main-about__item">
+                <a href="#swim">
+                    <img src="images/main-about-2.svg" class="main-about__item-img">
+                    <span class="main-about__item-title">Бассейн</span>
+                </a>
+            </div>
+            <div class="main-about__item">
+                <a href="#group">
+                    <img src="images/main-about-3.svg" class="main-about__item-img">
+                    <span  class="main-about__item-title">Групповые занятия и студии</span>
+                </a>
+            </div>
+            <div class="main-about__item">
+                <a href="#kids">
+                    <img src="images/main-about-4.svg" class="main-about__item-img">
+                    <span class="main-about__item-title">Детский клуб</span>
+                </a>
+            </div>
+            <div class="main-about__item">
+                <a href="#spa">
+                    <img src="images/main-about-5.svg" class="main-about__item-img">
+                    <span class="main-about__item-title">SPA и кафе</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-gum content-center" id="gum">
+    <img src="images/main-gum-bg.jpg" class="bg-hidden">
+    <div class="wrap">
+        <div class="main-gum__info" data-parallax="150">
+            <h2>Тренажерный зал</h2>
+            <div class="main-gum__descr">Наш тренажерный зал оборудован новейшими линейками тренажеров Life Fitness серия INSIGNIA, Hammer Strength, Cybex. Новичок Вы, или профессионал в фитнесе — Вы всегда получите квалифицированные консультации от наших тренеров, которые помогут Вам не потерять мотивацию, развить самодисциплину и достичь желаемую цель.</div>
+            <a href="cards.html" class="btn">клубные карты</a>
+        </div>
+    </div>
+</div>
+<div class="main-swim" id="swim">
+    <img src="images/Swim-bg.jpg" class="bg-hidden">
+    <div class="wrap">
+        <div class="main-swim__info" data-parallax="85">
+            <h2>бассейн</h2>
+            <div class="main-swim__descr">Бассейн размером  22 м х 7,5 м. оснащен современной системой очистки воды с ультрафиолетом. Зона  с гидромассажем, водопад, специальное освещение и музыка создают нужную атмосферу  для тренировок  и отдыха. Свободное плавание, аквааэробика, индивидуальные занятия на аквабайках, персональные тренировки и занятия в группах для детей и взрослых </div>
+            <a href="cards.html" class="btn">клубные карты</a>
+        </div>
+    </div>
+</div>
+<div class="groups content-center has-padding" id="group">
+    <div class="groups__columns">
+        <div class="left__columns">
+            <div class="main-group__info" data-parallax="60">
+                <h2>Групповые занятия</h2>
+                <div class="main-group__descr">Не гонись за идеалом, просто создавай себя! Более 30 видов групповых программ,  в том числе аквааэробика и кроссфит, студийные занятия в мини группах – все, что нужно и новичкам, и  профессионалам!</div>
+            </div>
+            <div class="main-group__slider-info">
+                <div class="main-group__slider-title">Групповые программы</div>
+                <div class="main-group__slider-text">Популярные направления аэробики и танцев, силовые и укрепляющие программы, TRX,  йога и релакс. Выберите, что подходит именно Вам?</div>
+            </div>
+        </div>
+        <div class="groups__left">
+            <div class="main-group__slider-menu">
+                <ul>
+                    <li class="active"><a href="#middle-slider-0" data-groups-slide="0">Групповые программы</a></li>
+                    <li><a href="#" data-groups-slide="1">Сайклинг</a></li>
+                    <li><a href="#" data-groups-slide="2">Бокс и единоборства</a></li>
+                    <li><a href="#" data-groups-slide="3">Пилатес</a></li>
+                    <li><a href="#" data-groups-slide="4">Йога</a></li>
+                    <li><a href="#" data-groups-slide="5">Школа танцев</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-groups__nav--mobile">
+            <div class="owl-nav"><div class="owl-prev" data-groups-slide-prev>prev</div><div class="owl-next" data-groups-slide-next>next</div></div>
+        </div>
+        <div class="groups__right">
+            <div class="main-group__slider__items owl-carousel owl-loaded owl-drag" data-carousel-groups>
+                <div class="main-group__slider__item">
+                    <div class="main-group__slider-info hidden">
+                        <div class="main-group__slider-title">Групповые программы</div>
+                        <div class="main-group__slider-text">Популярные направления аэробики и танцев, силовые и укрепляющие программы, TRX,  йога и релакс. Выберите, что подходит именно Вам?</div>
+                    </div>
+                    <div class="main-group__slider-img"><img src="images/group/group-slider-1.jpg" alt=""></div>
+                </div>
+                <div class="main-group__slider__item">
+                    <div class="main-group__slider-info hidden">
+                        <div class="main-group__slider-title">Сайклинг</div>
+                        <div class="main-group__slider-text">Популярные направления аэробики и танцев, силовые и укрепляющие программы, TRX,  йога и релакс. Выберите, что подходит именно Вам?</div>
+                    </div>
+                    <div class="main-group__slider-img"><img src="images/group/group-slider-2.jpg" alt=""></div>
+                </div>
+                <div class="main-group__slider__item">
+                    <div class="main-group__slider-info hidden">
+                        <div class="main-group__slider-title">Бокс и единоборства</div>
+                        <div class="main-group__slider-text">Популярные направления аэробики и танцев, силовые и укрепляющие программы, TRX,  йога и релакс. Выберите, что подходит именно Вам?</div>
+                    </div>
+                    <div class="main-group__slider-img"><img src="images/group/group-slider-3.jpg" alt=""></div>
+                </div>
+                <div class="main-group__slider__item">
+                    <div class="main-group__slider-info hidden">
+                        <div class="main-group__slider-title">Пилатес</div>
+                        <div class="main-group__slider-text">Популярные направления аэробики и танцев, силовые и укрепляющие программы, TRX,  йога и релакс. Выберите, что подходит именно Вам?</div>
+                    </div>
+                    <div class="main-group__slider-img"><img src="images/group/group-slider-4.jpg" alt=""></div>
+                </div>
+                <div class="main-group__slider__item">
+                    <div class="main-group__slider-info hidden">
+                        <div class="main-group__slider-title">Йога</div>
+                        <div class="main-group__slider-text">Популярные направления аэробики и танцев, силовые и укрепляющие программы, TRX,  йога и релакс. Выберите, что подходит именно Вам?</div>
+                    </div>
+                    <div class="main-group__slider-img"><img src="images/group/group-slider-5.jpg" alt=""></div>
+                </div>
+                <div class="main-group__slider__item">
+                    <div class="main-group__slider-info hidden">
+                        <div class="main-group__slider-title">Школа танцев</div>
+                        <div class="main-group__slider-text">Популярные направления аэробики и танцев, силовые и укрепляющие программы, TRX,  йога и релакс. Выберите, что подходит именно Вам?</div>
+                    </div>
+                    <div class="main-group__slider-img"><img src="images/group/group-slider-6.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-kids" id="kids">
+    <img src="images/kid-bg.jpg" alt="" class="bg-hidden">
+    <div class="wrap">
+        <div class="main-kids__info" data-parallax="85">
+            <h2>Детский клуб</h2>
+            <div class="main-kids__descr">Вашему ребенку не будет скучно! Пока Вы тренируетесь, Ваши малыши займутся своими большими делами! Для каждого ребенка обязательно найдется занятие по душе среди спортивных и творческих программ детского клуба. Наши тренеры-педагоги разработали эти занятия с учетом детской физиологии  и психологии, что позволяет любому малышу проявить свои таланты и получить знания.</div>
+            <a href="cards.html" class="btn">клубные карты</a>
+        </div>
+    </div>
+</div>
+<div class="main-spa content-center" id="spa">
+    <img src="images/spa-bg.jpg" alt="" class="bg-hidden">
+    <div class="wrap">
+        <div class="main-spa__info" data-parallax="85">
+            <h2>Spa-зона и банный комплекс</h2>
+            <div class="main-spa__descr">Отличное дополнение к занятиям фитнесом, позволяющее приумножить и сохранить эффект  от тренировок. Совмещение процедур нашего салона с регулярными нагрузками, позволяет повысить работоспособность организма, ускорить обмен веществ, укрепить нервную систему.</div>
+            <a href="cards.html" class="btn">клубные карты</a>
+        </div>
+    </div>
+</div>
+<div class="main-cafe">
+    <img src="images/cafe-bg.jpg" alt="" class="bg-hidden">
+    <div class="wrap">
+        <div class="main-cafe__info" data-parallax="150">
+            <div class="main-cafe__top-descr">Health food Café Escalada</div>
+            <h2>ФИТНЕС-кафе</h2>
+            <div class="main-cafe__descr">Здоровое питание каждый день <br><br>Часы работы: 8:00 – 22:00 <br><br>Не успели позавтракать? Чувствуете голод после тренировки, а до дома еще далеко? Здесь Вы всегда сможете подкрепиться вкусной и полезной едой, отдохнуть за чашкой свежего кофе или чая. <br><br>В здоровом меню кафе Esclada:</div>
+            <ul>
+                <li>смузи,  коктейли</li>
+                <li>спортивное питание</li>
+                <li>свежие салаты</li>
+                <li>легкие завтраки</li>
+                <li> полноценные обеды и многое другое</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bottom-banner">
+    <img src="images/bottom-banner.jpg" alt="" class="bg-hidden">
+    <div class="wrap">
+        <div class="bottom-banner__info">
+            <div class="bottom-banner__title">На старте продаж </div>
+            <div class="bottom-banner__title title--blue"><span>все АБОНЕМЕНТы</span></div>
+            <div class="bottom-banner__title">ПО СПЕЦИАЛЬНОЙ ЦЕНЕ</div>
+            <a href="feedback.html" data-fancybox data-type="ajax" class="btn">узнать подробнее</a>
+        </div>
+    </div>
+</div>
+<div class="footer light-bg">
+    <div class="top-content">
+        <div class="left-box">
+            <div class="company-name">©2018 Фитнес-клуб Escalada</div>
+            <div class="law">Все права защищены</div>
+        </div>
+        <div class="middle-box">
+            <div class="address">г. Москва, м. Академическая, ул. Губкина, 6к1</div>
+            <a href="contacts.html#maps1" class="map">Смотреть на карте</a>
+        </div>
+        <div class="right-box">
+            <div class="work-day">Пн – Вс  с 7:00 до 23:00</div>
+            <div class="phone-bottom"><a href="tel:+7 (495) 783 32 16">+7 (495) 783 32 16</a></div>
+        </div>
+        <div class="site"><a href="mailto:info@escalada.ru">info@escalada.ru</a></div>
+        <div class="social">
+            <a href="#" class="vk"></a>
+            <a href="#" class="fb"></a>
+            <a href="#" class="inst"></a>
+        </div>
+    </div>
+    <div class="bottom-content">
+        <a href="#" class="confidentiality">Политика конфидециальности</a>
+        <div class="creator">Создание сайта — <a href="#">Prominado</a></div>
+    </div>
+</div>
+
+</body>
+</html>
